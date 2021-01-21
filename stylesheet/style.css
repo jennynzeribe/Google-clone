@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ body{
+  background: #fff;
+  font-family: 'Open Sans', sans-serif;
+} 
+
+a{
+    color: black;
+    text-decoration: none;
+    position: relative;
+    right: auto;
+    left: 85%;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    box-sizing: border-box;
+    border: 1px black;
+}
+.lang{
+    color: black;
+    text-decoration: none;
+    position: relative;
+    right: 2%;
+    left: 0%;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 30%;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+input[type="button"]{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    /* min-width: 54px; */
+    text-align: center;
+    cursor: pointer;
+   
+}
+#search{
+    position: fixed;
+    top: 100%;
+}
+#lucky{
+    position: fixed;
+    top: 40px;
+   left: 50%;
+}
+input[type="button"]:hover{
+    background: rgba(0, 0, 0, 0.452);
+
+}
+img{
+    position: absolute;
+    bottom: auto;
+    top: 25%;
+    right: auto;
+    left: 40%;
+}
+/* #search{
+    position: absolute;
+    bottom: auto;
+    top: 45%;
+    right: auto;
+    left: 40%;
+    border-radius: 50px;
+    background-color: transparent;
+    display: flex;
+    outline: none;
+    flex: 100%;
+    margin-top: -37px;
+} */
+
+
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  /* border: 3px solid #00B4CC; */
+  /* border-right: none; */
+  padding: 5px;
+  height: 40px;
+  border-radius: 50px;
+  outline: none;
+  /* color: #9DBFAF; */
+}
+/* 
+.searchTerm:focus{
+  /* color: #00B4CC; 
+} */
+
+/* .searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+} */
+
+.searchTerm ::placeholder{
+    font-size: 100px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
